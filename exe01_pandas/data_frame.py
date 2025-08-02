@@ -12,10 +12,11 @@ series_nomes = pd.Series(nomes)
 
 
 df = pd.DataFrame()
-
+# %%
 df["Nomes"] = series_nomes
 df["Idades"] = series_idade
-
+df
+# %%
 df.iloc[0]["Nomes"]
 
 
