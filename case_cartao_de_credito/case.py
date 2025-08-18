@@ -1,4 +1,5 @@
 # %%
+# Objetivo é separar o valor total da fatura do mês de cada cliente
 import pandas as pd
 # %%
 df = pd.read_csv("vendas.csv",sep=";")
